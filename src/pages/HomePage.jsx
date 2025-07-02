@@ -1,10 +1,8 @@
 //  src/pages/HomePage.jsx
-import { Link } from "react-router-dom"; // Import Link for internal navigation
-// Add more image imports if needed
+import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div className="page-container" style={{ overflow: "auto" }}>
-      {/* Hero/Banner Section with Image */}
       <div className="hero-section">
         <img
           src="\Images\vck1.png"
@@ -54,7 +52,6 @@ const HomePage = () => {
           companies.
         </li>
       </ul>
-      {/* Image Gallery Section */}
       <h2>Campus Life & Facilities</h2>
       <div className="image-gallery">
         <img
